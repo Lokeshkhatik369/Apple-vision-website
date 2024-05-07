@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+   /* This is a nav bar adjustment*/
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 70vw;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+#page>nav>h5{
+    font-family: monospace;
+    font-size: medium;
+}
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.btn1{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn0:hover{
+    background-color: blue;
+}
+
+
+#page>nav>h3{
+    font-weight: 400;
+}
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-bottom>h3{
+    color: white;
+    margin-bottom: 1vw;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+/*Second video*/
+#page1>video{
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    object-fit: cover;
+    
+}
+#page1>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform : translateX(-50%);
+    white-space: nowrap;
+}
+
+#page2>video{
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    object-fit: cover;
+    
+}
+#page2>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform : translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+#page3>video{
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    object-fit: cover;
+    
+}
+#page3>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform : translateX(-50%);
+    white-space: nowrap;
+}
+
+#page4>video{
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    object-fit: cover;
+    
+}
+#page4>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform : translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+}
+
+#page5>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%, -50%);
+}
+
+#page5-upper{
+    height: 30%;
+    width: 35%;
+    background-color: green;
+}
