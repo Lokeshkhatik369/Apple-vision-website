@@ -185,7 +185,28 @@ body{
 }
 
 #page5-upper{
-    height: 30%;
+    height: 35%;
     width: 35%;
     background-color: green;
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page5-upper>img{
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#page5-upper-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    background-color: blue;
 }
